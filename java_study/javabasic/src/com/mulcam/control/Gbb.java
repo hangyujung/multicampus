@@ -7,3 +7,4 @@ public class Gbb {
 		System.out.println(com+":"+my);
 	}
 }
+//규칙찾아내니깐 if문 3번으로 줄일수 있음.
