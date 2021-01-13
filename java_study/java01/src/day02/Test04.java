@@ -11,29 +11,29 @@ public class Test04 {
 		Scanner scanner =new Scanner(System.in); 
 		String name =new String("~~~~~");
 		boolean flag = num>100;
-		Employee emp1 =new Employee(); // 하드디스크에있던 데이터를 메모리에 올린다(객체생성), 사용자 정의 데이터 타입   
+		Emp emp1 =new Emp(); // 하드디스크에있던 데이터를 메모리에 올린다(객체생성), 사용자 정의 데이터 타입   
 		emp1.name="홍길동";
 		emp1.dept="기술부";
 		emp1.setAge(32);
 		emp1.print();
 		
-		Employee emp2 =new Employee(); // 메모리에 올린다(객체생성), 사용자 정의 데이터 타입
+		Emp emp2 =new Emp(); // 메모리에 올린다(객체생성), 사용자 정의 데이터 타입
 		emp2.name="두길동";
 		emp2.dept="영업부";
 		emp2.setAge(29);
 		emp2.print();
 		
-		Employee emp3 =new Employee(); // 메모리에 올린다(객체생성), 사용자 정의 데이터 타입
+		Emp emp3 =new Emp(); // 메모리에 올린다(객체생성), 사용자 정의 데이터 타입
 		emp3.name="삼길동";
 		emp3.dept="비서부";
 		emp3.setAge(22);
 		emp3.print();
 		
-		Employee emp4 = new Employee();
+		Emp emp4 = new Emp();
 		emp4.print();
 		
-		Employee[] employees1 = new Employee[10];
-		Employee[] employees = new Employee[] {emp1,emp2,emp3,emp4,null,null};
+		Emp[] employees1 = new Emp[10];
+		Emp[] employees = new Emp[] {emp1,emp2,emp3,emp4,null,null};
 
 
 		
@@ -42,7 +42,7 @@ public class Test04 {
 		name="삼길동";
 		name=JOptionPane.showInputDialog("검색할 사원의 이름을 입력하세요..");
 		
-		for(Employee part:employees) {
+		for(Emp part:employees) {
 				if(part!=null && part.dept!=null && part.name.equalsIgnoreCase(name)) {
 					part.print();
 				}
@@ -51,7 +51,7 @@ public class Test04 {
 		//디폴트 초기화되어 할당하고 emp1이라는 레퍼런스 타입 변수는 이곳을 레퍼런싱한다.
 	}
 }
-class Employee{  //public이 아니기 떄문에 같은 패키지(폴더) 내에서만 사용가능
+class Emp{  //public이 아니기 떄문에 같은 패키지(폴더) 내에서만 사용가능
 	//데이터 +기능
 	String name ;
 	String dept ;
