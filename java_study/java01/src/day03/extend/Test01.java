@@ -1,5 +1,8 @@
 package day03.extend;
 
+import day04.abstract_.Animal;
+import day04.abstract_.Dog;
+
 public class Test01 {
 	public static void main(String args[]) {
 		//is a 관계
@@ -12,8 +15,8 @@ public class Test01 {
 		Animal d=new Dog(); //부모타입이라 하단부 접근안함
 		//d.name; 
 		Dog temp =(Dog) d;
-		System.out.println(temp.name);
-		System.out.println(((Dog)d).name); //(Dog)로 다운캐스팅해서 사용
+//		System.out.println(temp.name);
+//		System.out.println(((Dog)d).name); //(Dog)로 다운캐스팅해서 사용
 		
 		Dog d1 = new Dog(); // 밑에서부터 메모리 전체접근함
 		Animal a2= d1;  //이렇게 하면 d1으로 부모단에 메모리 접근가능

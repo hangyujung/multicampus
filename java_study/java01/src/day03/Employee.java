@@ -58,4 +58,44 @@ public class Employee {
 		//자기 스코프에서 dept를 찾아보고 없으면 밖에 있는 것을 찾는다.
 	}
 
+@Override
+public String toString() {
+	return "Employee [name=" + name + ", dept=" + dept + ", age=" + age + "]";
+}
+
+@Override
+public int hashCode() {
+	final int prime = 31;
+	int result = 1;
+	result = prime * result + age;
+	result = prime * result + ((dept == null) ? 0 : dept.hashCode());
+	result = prime * result + ((name == null) ? 0 : name.hashCode());
+	return result;
+}
+
+@Override
+public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	Employee other = (Employee) obj;
+	if (age != other.age)
+		return false;
+	if (dept == null) {
+		if (other.dept != null)
+			return false;
+	} else if (!dept.equals(other.dept))
+		return false;
+	if (name == null) {
+		if (other.name != null)
+			return false;
+	} else if (!name.equals(other.name))
+		return false;
+	return true;
+}
+	
+
 }
