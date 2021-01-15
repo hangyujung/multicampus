@@ -7,7 +7,7 @@ public class Prob_Stack_HanGyuJung {
 			System.out.println("스택이 비어있습니다.");
 		}
 		
-		for (int i = 1; i <= 10; i++) {
+		for (int i = 1; i <= 20; i++) {
 			stack.push(i);
 		}
 		
@@ -42,10 +42,20 @@ class MyStack{
 			sta =new int[10];
 	}
 	void push(int num) {
+		if(isFull()) {
+			int resize=sta.length;
+			int[] sta2 =new int[resize+10];
+			for(int i=0;i<resize;i++) {
+				sta2[i]=sta[i];
+			}
+			sta=sta2;
+		}
 		
-		sta[n]=num;
-		n++;
+		sta[n++]=num;
 	}
+	//System.arraycopy 메소드 활용
+	
+	
 	boolean isEmpty() {
 		if(n==0) return true;
 		else return false;
