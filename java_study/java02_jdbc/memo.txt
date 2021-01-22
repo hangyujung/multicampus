@@ -1,0 +1,3 @@
+DTO : Data Transfer Object로써 DATA를 OBJECT로 변환하는 객체이다.
+VO : Value Object 로써 값 오브젝트 즉 값을 위해 쓰는 것이다. (DTO랑 다른점: 불변성)
+DAO : Data Access Object 로써 데이터베이스의 data에 접근하기 위한 객체이다.
