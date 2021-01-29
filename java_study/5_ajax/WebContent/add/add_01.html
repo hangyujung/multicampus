@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+let V;
+$(function() {
+	$('#btn1').click(function (){  //#btn1 에 이벤트 처리
+		$.ajax( {
+			url:'add.jsp',
+			type:'POST',
+			dataType:'json',
+			data:{
+				p1:$('#p1').val(),
+				p2:$('#p2').val()
+			},
+			success:function(data){
+				V=data;
+				$('#result').val(data.result)
+			},
+			error:function(error){
+				$('#msg').html('error: '+error)
+			}
+		});
+		
+	});
+});
+</script>
+
+<title>add01.html here</title>
+</head>
+<body>
+
+<h3>jQuery aJax add</h3>
+
+<form action="">
+	<input type="text" name="p1" id="p1"> +
+	<input type="text" name="p2" id="p2"> =
+	<input type="text" name="result" id="result">
+	
+</form>
+<button id="btn1">aJax 통신 으로 Add 요청</button>
+<br>
+<button id="btn2"> button1</button>
+<button id="btn3"> button2</button>
+<div id="msg"> HELLO</div>
+</body>
+</html>

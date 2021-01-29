@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Insert title here</title>
+<style>
+button{
+width:50px;
+height:50px;
+
+}
+#btn_right{
+position: absolute;
+top:600px;
+left:700px;
+}
+#btn_left{
+position: absolute;
+top:600px;
+left:450px;
+}
+img{
+position: absolute;
+top:500px;
+left:500px;
+}
+
+
+</style>
+<script>
+count=0
+$(function(){
+	$("#btn_right").click(function(){
+		if(count==4) count=0
+		else count+=1
+		$('#img1').attr('src','./img/s'+(count)+".jpg")
+	})
+	$("#btn_left").click(function(){
+		if(count==0) count=4
+		else count-=1
+		$('#img1').attr('src','./img/s'+(count)+".jpg")
+	})
+
+
+});
+</script>
+</head>
+<body>
+
+
+<button id="btn_left" img="./img/left.gif" ></button>
+<img id=img1 src="./img/s0.jpg" width=200 height=200> </img>
+<button id="btn_right" img="./img/right.gif"></button>
+</body>
+</html>

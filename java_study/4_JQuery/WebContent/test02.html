@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<title>Insert title here</title>
+<style>
+.error {
+	color:red;
+}
+</style>
+<script> 
+$( () => { 
+	$('input[name="id"]').keyup(function (){
+		let id= $(this).val();
+		if(id.length<5){
+			$('#sid').text('id는 5글자 이상 입력해줘야 돼요');
+		}else{
+			$('#sid').text('사용 가능');
+		}
+	});
+	$('input[name="name"]').focus(function (){
+		let id= $(this).val();
+		if(id.length<5){
+			$('#sname').text('name은 5글자 이상 입력해줘야 돼요');
+		}else{
+			$('#sname').text('사용 가능');
+		}
+	});
+} );
+</script>
+</head>
+<body>
+<form id="f1" action="process.jsp">
+ID: <input type="text" name="id" id="id">
+	<span id="sid" class="error"></span><br>
+Name: <input type="text" name="name" id="name">
+<span id="sname" class="error"></span><br>
+<input type= "button" value="등록" id="btn1">
+<input type= "reset">
+<input type= "submit">
+
+</form>
+</body>
+</html>

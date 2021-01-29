@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Dom</title>
+let h1;
+<script >
+window.onload= function(){
+	h1=document.querySelectorAll('h1');
+		for(let data of h1){
+	 		data.style.color = 'blue';
+	 		data.style.backgroundColor = 'yellow';
+			data.innerHTML = '~~~~~!~~'
+		}
+	}
+</script>
+
+</head>
+<body>
+<h1 id="id1">javascript dom1 #id1 </h1>
+<h1>javascript dom1 </h1>
+<h2>javascript dom2 </h2>
+<h4>javascript dom4 </h4>
+<h3 class="c1">javascript dom3 .c1 </h3>
+<h3 class="c1">javascript dom3 .c1 </h3>
+<h1>javascript dom1 </h1>
+
+</body>
+</html>
