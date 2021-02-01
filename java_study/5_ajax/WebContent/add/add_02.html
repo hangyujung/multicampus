@@ -10,12 +10,13 @@ $(function() {
 	$('#btn1').click(function (){  //#btn1 에 이벤트 처리
 		$.ajax( {
 			url:'add.jsp',
-			type:'GET',
+			type:'POST',
 			dataType:'json',
-			data:{
-				p1:$('#p1').val(),
-				p2:$('#p2').val()
-			},
+			//data:{
+			//	p1:$('#p1').val(),
+			//	p2:$('#p2').val()
+			//},
+			data:$('form').serializeArray(), //자동으로 폼태그안에 key,value값 매칭 
 			success:function(data){
 				V=data;
 				$('#result').val(data.result)
