@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My App</title>
+
+<link rel="stylesheet" href="./css/table.css">
+<link rel="stylesheet" href="./css/mypage.css">
+
+
+<style type="text/css">
+
+</style>
+
+</head>
+<body>
+   
+     <header>
+       <hgroup>
+		   <h1 class="ff">Page Title</h1> 
+		   <h2> Page SubTitle</h2>
+		</hgroup>
+	 </header>	
+	 
+		<nav id="nmenu">
+		   <ul>
+		      <li> <a href="index.html">Home</a></li>
+		      <li> <a href="#">Tutorials</a></li>
+		      <li> <a href="#">About</a></li>
+		      <li> <a href="login.html">Login</a></li>
+		   </ul>
+		</nav>
+		
+	
+	  <div id="output">
+		<section>
+			<h3 class="ff"> Book 등록 폼</h3>
+            <form action="addBook.do"  method="post">
+            
+              <table>
+                <tr>
+                   <td>제목 (title) </td>
+                   <td><input type="text" name="title" id="title" size="30"></td>
+                </tr>
+               <tr>
+                   <td>출판사(publisher)</td>
+                   <td><input type="text" name="publisher" id="publisher" size="30"></td>
+                </tr>
+                 <tr>
+                   <td>가격 (price)</td>
+                   <td> <input type="text" name="price" id="price" size="30"></td>
+                </tr>
+                 <tr>
+                   <td colspan="2">
+                    <input type="submit" value="등록">
+                    <input type="reset" value="초기화">
+                   </td>
+                </tr>
+              </table>
+            
+              
+            </form>
+				
+		</section>
+	</div>
+		
+	<footer>	Footer content  </footer>
+   
+</body>
+</html>

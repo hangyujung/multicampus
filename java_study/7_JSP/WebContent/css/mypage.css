@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body{
+	margin: 0;
+}
+.ff{
+  font-family: 'Potta One', cursive;
+}
+
+header{
+  width: 100%;
+  background-color: gray;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer{
+   width:100%;
+   height:3em;
+   line-height:3em;
+   text-decoration: underline;
+   text-align: center;
+   color:white;
+   font-style: italic;
+   background-color: black;
+   font-weight: bold;
+   clear: both;
+}
+
+/* navvar */
+#nmenu ul {
+   list-style: none;
+   text-align: center;
+   padding: 10px 0;
+   letter-spacing: 10px;
+}
+ul li {
+   display: inline;
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+ul li a {
+   text-decoration: none;
+   color: black;
+}
+ul li a:hover {
+   text-decoration: underline;
+   color: red;
+}
+
+#output{
+  width: 90%;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+/*dropmenu*/
+.dropbox{
+  position: relative;
+}
+.dropmenu{
+  /* visibility: hidden; */
+   display: none;
+   position:absolute;
+   top:30px; 
+   left: 0px;
+   width: 120px;
+}
+
+.dropbox:hover .dropmenu {
+	display:block;
+}
+

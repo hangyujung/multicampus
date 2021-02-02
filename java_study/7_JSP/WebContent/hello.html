@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+
+</script>
+
+
+</head>
+<body>
+
+<h3> Hello Form</h3>
+
+<form action="./hello.do" method="get">
+   name : <input type="text" name="name" id="name"><br>
+   ID : <input type="text" name="id" id="id"><br>
+   <input type="submit"> 
+   <input type="reset">
+</form>
+
+<hr>
+
+<form action="./hello.do" method="post">
+   name : <input type="text" name="name" id="name"><br>
+   ID : <input type="text" name="id" id="id"><br>
+   <input type="submit"> 
+   <input type="reset">
+</form>
+
+<hr>
+
+<form action="./hello" method="post">
+   name : <input type="text" name="name" id="name"><br>
+   ID : <input type="text" name="id" id="id"><br>
+   <input type="submit"> 
+   <input type="reset">
+</form>
+
+<hr>
+<form action="./hello.jsp" method="post">
+   name : <input type="text" name="name" id="name"><br>
+   ID : <input type="text" name="id" id="id"><br>
+   <input type="submit"> 
+   <input type="reset">
+</form>
+
+
+<hr>
+
+<a href="./hello.jsp?name=~~~&id=~~~"> hello.jsp</a> <br>
+<a href="./hello.do?name=~~~&id=~~~"> hello.do</a> <br>
+<a href="./hello?name=~~~&id=~~~"> hello</a> <br>
+
+
+</body>
+</html>
