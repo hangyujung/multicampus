@@ -120,6 +120,7 @@ public class BookDAO {
 				vo.setTitle(rs.getString("title"));
 				vo.setPublisher(rs.getString("publisher"));
 				vo.setImg(rs.getString("img"));
+				vo.setPubdate(rs.getDate("pubdate").toString());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -205,3 +206,59 @@ public class BookDAO {
 	}
 
 }
+
+/*
+drop table book purge;
+drop table book cascade CONSTRAINT;
+
+CREATE TABLE book(
+   bookno NUMBER(5) primary key,   --unique + not null   , index 생성
+   title  VARCHAR2(50) ,
+   publisher VARCHAR2(50) ,
+   price number(7,2) check(price>0),
+   pubdate DATE default sysdate,
+   img       varchar2(200)
+);
+
+
+insert into book (bookno ,title,publisher,price)
+values ((select nvl(max(bookno),0)+1 from book)  ,'SQL','도우출판사',900);
+
+
+
+select * from book where title like '%j%' order by bookno desc
+select * from book where publisher like '%한빛%' order by bookno desc
+
+
+
+
+delete from user where id = 'java01';
+UPDATE user SET password = '1234'  WHERE id ='java01';
+select * from book order by bookno desc
+
+delete from book where bookno = ?
+String sql = "select * from book order by bookno desc";
+
+String sql = "insert into book (bookno ,title,publisher,price) " + 
+       		"values ((select nvl(max(bookno),0)+1 from book)  ,?,?,?)";
+       		
+String sql = "delete from book where bookno = ?";
+
+
+select * from 
+( select rownum row#,bookid, bookname, publisher, price 
+ 		 from (select * from Book order by bookid desc)  
+ )
+ where row# between 1 and 5 ;
+
+ 
+ 
+ 
+
+
+insert into book (bookno,title,publisher,price)
+values((select nvl( max(bookno),0)+1 from book) ,'java','한빛미디어',24000);
+
+
+
+*/

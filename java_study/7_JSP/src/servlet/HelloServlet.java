@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = { "/hello", "/hello.do" },loadOnStartup = 1)
+//@WebServlet(urlPatterns = { "/hello", "/hello.do" },loadOnStartup = 1)
+@WebServlet(urlPatterns = { "/hello", "/hello.do" })
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

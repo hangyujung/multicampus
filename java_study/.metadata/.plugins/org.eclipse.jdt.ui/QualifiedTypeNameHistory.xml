@@ -11,4 +11,21 @@
     <fullyQualifiedTypeName name="day03.extend.Dog"/>
     <fullyQualifiedTypeName name="day03.extend.Fish"/>
     <fullyQualifiedTypeName name="day03.extend.Animal"/>
+    <fullyQualifiedTypeName name="util.MyStack"/>
+    <fullyQualifiedTypeName name="com.util.JDBCUtil"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.awt.print.Book"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="vo.BookVO"/>
+    <fullyQualifiedTypeName name="vo.UserVO"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="util.JDBCUtil"/>
+    <fullyQualifiedTypeName name="service.BookService"/>
+    <fullyQualifiedTypeName name="dao.BookDAO"/>
+    <fullyQualifiedTypeName name="service.BookServiceImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="servlet.ListBookServlet"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

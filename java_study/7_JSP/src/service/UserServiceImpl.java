@@ -1,35 +1,46 @@
 package service;
 
-import java.util.List;
-
 import dao.UserDAO;
 import vo.UserVO;
 
-public class UserServiceImpl {
-private UserDAO dao = null;
+public class UserServiceImpl implements UserService{
 	
-	public UserServiceImpl() {	}
+	UserDAO dao;
 	
+    
+	public UserServiceImpl() {
+		super();
+	}
+
 	public UserServiceImpl(UserDAO dao) {
+		super();
 		this.dao = dao;
 	}
+
 	public UserDAO getDao() {
 		return dao;
 	}
+
 	public void setDao(UserDAO dao) {
 		this.dao = dao;
 	}
+
 	@Override
-	public UserVO login(String id,String pw) {
-		dao.login(String id,String pw);
+	public UserVO login(String id, String pw) {
+		// TODO Auto-generated method stub
+		return dao.login(id, pw);
 	}
+
 	@Override
-	public void addUser(UserVO vo)  {
+	public void addUser(UserVO vo) {
+		// TODO Auto-generated method stub
 		dao.addUser(vo);
 	}
+
 	@Override
 	public UserVO idCheck(String id) {
-		dao.idCheck(id);
+		// TODO Auto-generated method stub
+		return dao.idCheck(id);
 	}
-	
+
 }

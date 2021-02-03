@@ -1,5 +1,7 @@
 package service;
 
+import vo.UserVO;
+
 public interface UserService {
 	UserVO login(String id,String pw);
 	
@@ -23,7 +25,7 @@ create table users(
 );
 
 
-insert into user (id,pw,name,role) values ('admin','1234','관리자','admin');
-insert into user (id,pw,name) values ('java01','1234','홍길동');
+insert into users (id,pw,name,role) values ('admin','1234','관리자','admin');
+insert into users (id,pw,name) values ('java01','1234','홍길동');
 
 */

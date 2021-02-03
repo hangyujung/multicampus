@@ -5,40 +5,101 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import util.JDBCUtil;
+import vo.UserVO;
 
 public class UserDAO {
-	public UserVO login(String id,String pw) {
-		String sql = " delete from dept where deptno = ? "; //select , insert , update,delete
+	public UserVO login(String id, String pw) {
+		String sql =" select * from users where id=? and pw=?";
+		UserVO vo = null;
+
 		Connection con = null;
 		PreparedStatement ps = null;
-		ResultSet rs = null;        
-		int row = 0;                    
+		ResultSet rs = null;
+		int row = 0;
 		
 		try {
 			con = JDBCUtil.getConnection();
-			ps = con.prepareStatement(sql); // sql 
+			ps = con.prepareStatement(sql);
+			// ? 
+			ps.setString(1, id);
+			ps.setString(2, pw);
+			//실행
 			
-			//ps 구문에 파라미터세팅
-			ps.setInt(1, deptno);
+			rs = ps.executeQuery();
+			if(rs.next()) {
+				vo = new UserVO();
+				vo.setId(rs.getString("id"));
+				vo.setName(rs.getString("name"));
+				vo.setRole(rs.getString("role"));
+			}
 			
-			row = ps.executeUpdate();  // insert , update,delete
-			//결과값핸들링 
-			
-		}catch (Exception e) {
-          e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}finally {
 			JDBCUtil.close(rs, ps, con);
 		}
-		return row;
-	}
-	
-	public void addUser(UserVO vo) {
-		
-	}
-	
-	
-	public UserVO idCheck(String id) {
-		
+
+		return vo;
+
 	}
 
+	public void addUser(UserVO vo) {
+		String sql = "insert into users (id,pw,name) values (?,?,?)";
+		
+		Connection con = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		int row = 0;
+		
+		try {
+			con = JDBCUtil.getConnection();
+			ps = con.prepareStatement(sql);
+			// ? 
+			ps.setString(1, vo.getId());
+			ps.setString(2, vo.getPw());
+			ps.setString(3, vo.getName());
+			//실행
+			row = ps.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JDBCUtil.close(rs, ps, con);
+		}
+
+	}
+
+	public UserVO idCheck(String id) {
+		String sql =" select * from users where id=?";
+
+		UserVO vo = null;
+
+		Connection con = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		int row = 0;
+		
+		try {
+			con = JDBCUtil.getConnection();
+			ps = con.prepareStatement(sql);
+			// ? 
+			ps.setString(1, id);
+			//실행
+			
+			rs = ps.executeQuery();
+			
+			if(rs.next()) {
+				vo = new UserVO();
+				vo.setId(rs.getString("id"));
+				vo.setName(rs.getString("name"));
+				vo.setRole(rs.getString("role"));
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JDBCUtil.close(rs, ps, con);
+		}
+		return vo;
+	}
 }
