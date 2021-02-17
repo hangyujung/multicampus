@@ -83,7 +83,6 @@ public class UserController {
 		
 	 // memberIdChkPOST() 종료
 
-	
 	@PostMapping("/join")
 	public String join(@ModelAttribute User user) {
 		int result = userService.joinUser(user);
@@ -92,7 +91,6 @@ public class UserController {
 		else
 			return "redirect:/user/signup";
 	}
-	
 	
 	@GetMapping("/list")
 	public String list(Model model) {

@@ -2969,3 +2969,272 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar
 2021-02-17 03:43:44,676 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@311ddbcf{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2021-02-17 03:43:44,676 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
 2021-02-17 03:43:44,860 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6d74fbb{/help,null,STOPPED}
+2021-02-17 09:21:44,384 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-17 09:21:52,899 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 09:21:52,900 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\board\src\main\resources
+2021-02-17 09:21:52,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 09:21:52,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\board\src\test\resources
+2021-02-17 09:21:56,434 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 09:21:56,435 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 09:21:56,436 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 09:21:56,437 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:06:22,763 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:06:22,764 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:06:22,765 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:06:22,766 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:08:05,332 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:08:05,332 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:08:05,333 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:08:05,333 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:10:34,619 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-17 10:10:35,289 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.co.mulcam:teamfinder:0.0.1-SNAPSHOT @ D:\workingSpace\multicampus\java_study\teamfinder\pom.xml.
+2021-02-17 10:10:36,085 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /teamfinder/src
+2021-02-17 10:10:36,086 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /teamfinder/src/test/java because it overlaps with /teamfinder/src
+2021-02-17 10:10:37,223 [Worker-28: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for teamfinder
+2021-02-17 10:10:37,229 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-02-17 10:10:39,024 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:10:39,025 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:10:39,026 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:10:39,026 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:10:39,026 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of teamfinder
+2021-02-17 10:10:39,027 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for teamfinder
+2021-02-17 10:10:39,042 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2021-02-17 10:10:39,057 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:25,636 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:25,637 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:13:25,637 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:25,637 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:13:29,832 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:29,833 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:13:29,833 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:29,834 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:13:49,794 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:49,795 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:13:49,796 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:13:49,796 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:26:09,881 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:26:09,881 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:26:09,882 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:26:09,882 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:33:22,839 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:33:22,839 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:33:22,840 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:33:22,840 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:33:37,163 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:33:37,163 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:33:37,164 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:33:37,164 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:35:33,130 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:35:33,130 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:35:33,131 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:35:33,131 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:39:48,143 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:39:48,144 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:39:48,145 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:39:48,145 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:40:03,626 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:40:03,628 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:40:03,629 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:40:03,630 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:40:41,430 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:40:41,431 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:40:41,432 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:40:41,433 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:42:20,491 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:20,491 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:42:20,493 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:20,493 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:42:26,412 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:26,412 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:42:26,414 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:26,414 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:42:36,352 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:36,352 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:42:36,353 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:42:36,353 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:43:07,857 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:43:07,857 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:43:07,858 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:43:07,858 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:48:05,325 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:48:05,325 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:48:05,326 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:48:05,327 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:48:52,085 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:48:52,086 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:48:52,087 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:48:52,088 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:49:33,718 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:49:33,718 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:49:33,719 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:49:33,719 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:50:41,136 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:50:41,136 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:50:41,137 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:50:41,137 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:51:48,191 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:51:48,191 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:51:48,192 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:51:48,192 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:53:31,741 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:53:31,741 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:53:31,742 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:53:31,742 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:53:45,742 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:53:45,742 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:53:45,742 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:53:45,743 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:54:04,603 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:54:04,603 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:54:04,607 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:54:04,607 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:54:25,956 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:54:25,956 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:54:25,957 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:54:25,958 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 10:58:06,227 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:58:06,227 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 10:58:06,228 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 10:58:06,228 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:00:07,190 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:00:07,190 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:00:07,191 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:00:07,191 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:01:02,171 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:01:02,171 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:01:02,172 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:01:02,172 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:01:19,756 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-17 11:01:20,215 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.co.mulcam:teamfinder:0.0.1-SNAPSHOT @ D:\workingSpace\multicampus\java_study\teamfinder\pom.xml.
+2021-02-17 11:01:20,711 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /teamfinder/src
+2021-02-17 11:01:20,711 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /teamfinder/src/test/java because it overlaps with /teamfinder/src
+2021-02-17 11:01:21,343 [Worker-68: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for teamfinder
+2021-02-17 11:01:21,347 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-02-17 11:01:22,103 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:01:22,104 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:01:22,104 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:01:22,105 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:01:22,105 [Worker-72: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of teamfinder
+2021-02-17 11:01:22,105 [Worker-72: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for teamfinder
+2021-02-17 11:01:22,108 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:05:18,477 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:05:18,478 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:05:18,478 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:05:18,478 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:12:12,328 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:12:12,329 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:12:12,330 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:12:12,330 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:12:49,121 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:12:49,121 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:12:49,122 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:12:49,122 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:14:40,547 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:14:40,547 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:14:40,548 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:14:40,548 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:17:06,837 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:17:06,837 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:17:06,838 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:17:06,838 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:17:12,178 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:17:12,178 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:17:12,179 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:17:12,179 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:18:04,113 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:18:04,113 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:18:04,113 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:18:04,114 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:20:06,418 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:20:06,418 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:20:06,420 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:20:06,420 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:24:38,998 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:24:38,998 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:24:38,999 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:24:38,999 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:25:58,264 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:25:58,264 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:25:58,267 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:25:58,267 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:26:07,781 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-17 11:26:08,180 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.co.mulcam:teamfinder:0.0.1-SNAPSHOT @ D:\workingSpace\multicampus\java_study\teamfinder\pom.xml.
+2021-02-17 11:26:08,696 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /teamfinder/src
+2021-02-17 11:26:08,696 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /teamfinder/src/test/java because it overlaps with /teamfinder/src
+2021-02-17 11:26:09,318 [Worker-92: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for teamfinder
+2021-02-17 11:26:09,322 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-02-17 11:26:10,053 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:26:10,053 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:26:10,054 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:26:10,054 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:26:10,054 [Worker-91: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of teamfinder
+2021-02-17 11:26:10,054 [Worker-91: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for teamfinder
+2021-02-17 11:26:10,058 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:27:43,841 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:27:43,841 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:27:43,842 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:27:43,842 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:28:32,156 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:28:32,156 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:28:32,156 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:28:32,157 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:33:15,618 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:33:15,618 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:33:15,619 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:33:15,619 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:33:45,860 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:33:45,860 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:33:45,860 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:33:45,860 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:35:40,900 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:35:40,900 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:35:40,901 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:35:40,901 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:36:09,725 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:36:09,725 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:36:09,726 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:36:09,726 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:38:30,635 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:38:30,635 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:38:30,636 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:38:30,636 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:39:27,556 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:39:27,557 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:39:27,557 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:39:27,558 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:39:40,644 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:39:40,645 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:39:40,645 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:39:40,645 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:41:04,526 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:41:04,526 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:41:04,527 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:41:04,527 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:48:07,090 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:48:07,091 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:48:07,091 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:48:07,092 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:50:06,400 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:50:06,400 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:50:06,401 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:50:06,401 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:51:07,719 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:51:07,719 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:51:07,720 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:51:07,720 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:51:19,586 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:51:19,590 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:51:19,591 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:51:19,592 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:52:17,958 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:52:17,958 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:52:17,959 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:52:17,960 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 11:52:26,943 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:52:26,943 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 11:52:26,944 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 11:52:26,944 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources
+2021-02-17 13:35:30,104 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 13:35:30,105 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\main\resources
+2021-02-17 13:35:30,106 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-17 13:35:30,106 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workingSpace\multicampus\java_study\teamfinder\src\test\resources

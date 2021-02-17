@@ -16,13 +16,14 @@ $(function(){
 $('#id_input').click(function(){
 	
 	var memberId = $('#id2').val(); // .id_input에 입력되는 값 
-	alert(memberId)
-	var data = {memberId : memberId} // '컨트롤에 넘길 데이터 이름' : '데이터(.id_input에 입력되는 값)' 
+
+	var data = {memberId : memberId} // '컨트롤에 넘길 데이터 이름' : '데이터' 
 	$.ajax({ 
 		type : "post", 
-		url : "/user/memberIdChk", 
+		url : "/teamfinder/user/memberIdChk", 
 		data : data,
 		success:function(result){
+			alert("아이디 생성 "+ result)
 			console.log("성공 여부" + result);
 		}
 		}); // ajax 종료

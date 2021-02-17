@@ -29,13 +29,11 @@
 	</insert>
 	
 	<select id="login" resultType="int">
-	
 		select count(*) from user_list where user_Id = #{user_Id} and user_Pwd = #{user_Pwd}
-		
 	</select>
 	
 	<select id="idCheck" resultType="int">
-	select count(*) from book_member where memberId = #{memberId}
+		select count(*) from user_list where user_Id = #{memberId}
 	</select>
 
 
