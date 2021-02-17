@@ -16,8 +16,7 @@ public class User {
 		tv.volumeDown();
 		tv.volumeUp();
 		tv.powerOff();
-		
-		
+
 	}
 
 }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.multi.teamfinder.dao.UsersMapper">
+	<resultMap type="kr.co.multi.teamfinder.dto.User" id="user_resultMap">
+		<result column="user_Index" property="userIndex"/>
+		<result column="user_Pwd" property="userPwd"/>
+		<result column="region" property="reGion"/>
+		<result column="user_Image" property="userImage"/>
+		<result column="user_Stack" property="userStack"/>
+		<result column="user_Email" property="userEmail"/>
+		<result column="user_Id" property="userId"/>		
+	</resultMap>
+
+	<!--
+	<select id="getUser" parameterType="java.lang.String"
+		resultMap="user_resultMap">
+		select user_Pwd from users where id = #{id}
+	</select>
+
+		
+	<select id="getUsers" resultMap="user_resultMap">
+	select id, name, password, email, join_date from users
+	</select>
+		-->
+		
+	<insert id="addUser" parameterType="kr.co.multi.teamfinder.dto.User">
+	insert into user_list(user_Index, user_Pwd, region, user_Image, user_Stack, user_Email, user_Id) 
+	values(USER_SEQ.NEXTVAL ,#{user_Pwd},#{region},'0', '0', #{user_Email}, #{user_Id})
+	</insert>
+	
+	<select id="login" resultType="int">
+	
+		select count(*) from user_list where user_Id = #{user_Id} and user_Pwd = #{user_Pwd}
+		
+	</select>
+	
+	<select id="idCheck" resultType="int">
+	select count(*) from book_member where memberId = #{memberId}
+	</select>
+
+
+	
+</mapper>
+
+
+
+
+
+
+
